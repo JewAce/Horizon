@@ -14,26 +14,10 @@ table, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
     background: transparent;
 }
-body {
-    line-height: 1;
-}
-ol, ul {
-    list-style: none;
-}
-
-:focus {
-    outline: 0;
-}
-
-ins {
-    text-decoration: none;
-}
-del {
-    text-decoration: line-through;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+body { line-height: 1 }
+ol, ul { list-style: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
 /* END RESET STYLES */
